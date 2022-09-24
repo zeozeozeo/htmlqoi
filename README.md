@@ -2,6 +2,8 @@
 
 Use [QOI](https://qoiformat.org/) images inside your HTML.
 
+[-> View live demo <-](https://zeozeozeo.github.io/htmlqoi/demo)
+
 # Quickstart
 
 ```html
