@@ -1,0 +1,27 @@
+{
+    "name": "htmlqoi",
+    "version": "1.0.0",
+    "description": "Use QOI images inside your HTML.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack",
+        "watch": "webpack watch"
+    },
+    "keywords": [
+        "qoi",
+        "html",
+        "image",
+        "quiteokimage"
+    ],
+    "author": "zeozeozeo",
+    "license": "Unlicense",
+    "devDependencies": {
+        "@babel/core": "^7.19.1",
+        "@babel/preset-env": "^7.19.1",
+        "babel-loader": "^8.2.5",
+        "qoijs": "^1.0.0",
+        "webpack": "^5.74.0",
+        "webpack-cli": "^4.10.0"
+    }
+}

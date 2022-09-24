@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>htmlqoi</title>
+
+        <!-- use QOI images in favicons -->
+        <link
+            rel="shortcut icon"
+            href="static/favicon.qoi"
+            type="image/x-icon"
+        />
+
+        <!-- just add one script tag to your page -->
+        <script src="../dist/htmlqoi.min.js"></script>
+    </head>
+    <body>
+        <h3>
+            All of the images you see below are QOI images.
+            <br />
+            The favicon is also a QOI image.
+        </h3>
+
+        <!-- some images -->
+        <img src="static/kodim23.qoi" alt="kodim23" />
+        <img src="static/dice.qoi" alt="dice" />
+        <img src="static/wikipedia_008.qoi" />
+
+        <!-- dynamically add images -->
+        <script>
+            var img = document.createElement("img");
+            img.src = "static/qoi_logo.qoi";
+            document.body.appendChild(img);
+        </script>
+    </body>
+</html>
